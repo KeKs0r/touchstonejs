@@ -39,6 +39,7 @@
 		"hybrid"
 	],
 	"scripts": {
+		"install": "npm install; gulp build:lib",
 		"build": "gulp build:lib",
 		"watch": "gulp watch:lib",
 		"lint": "happiness",
